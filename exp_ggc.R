@@ -59,7 +59,7 @@ rggc <- function(size_max, nserv, farr, fdep, narr_sim){
     k_next <- which.min(serv_free)
     arr_start_serv[i] <- max(arr[i], serv_free[k_next])
     arr_end_serv[i] <- arr_start_serv[i] + dep[i]
-    serv_free[k_next] <- arr_end_serv[i] 
+    serv_free[k_next] <- arr_end_serv[i]
   }
   
   # update queue
@@ -88,10 +88,27 @@ mmc_Ls_rho <- function(rho, c) {
   return(Ls)
 }
 
+mmc_Lq_rho <- function(rho, c) {
+  a <- c * rho
+  
+  P0 <- 1 / (
+    sum(sapply(0:(c-1), function(k) a^k / factorial(k))) +
+      (a^c) / (factorial(c) * (1 - rho))
+  )
+  
+  Lq <- P0 * (a^c) / factorial(c) * rho / (1 - rho)^2
+  Ls <- Lq + a
+  
+  return(Lq)
+}
+
+
 nserv <- 15
 rho <- 0.85
 repet <- 100
-erro <- numeric(repet)
+erro_Ls <- numeric(repet)
+erro_Lq <- numeric(repet)
+
 for(i in 1:repet){
   sim_queue <- rggc(
     size_max = 1000,
@@ -103,8 +120,20 @@ for(i in 1:repet){
   sim_queue$gap <- c(diff(sim_queue$time), 0)
   Ls_teo <- mmc_Ls_rho(rho, c = nserv)
   Ls_est <- sum(sim_queue$size * sim_queue$gap) / sum(sim_queue$gap)
-  erro[i] <- Ls_est - Ls_teo
+  erro_Ls[i] <- Ls_est - Ls_teo
+  
+#  total_serv_time <- 
+#  total_time <- sum(sim_queue$gap)
+#  rho_est <- (total_serv_time) / (nserv * total_time)
+  
+  sim_queue$size_queue <- pmax(sim_queue$size - nserv, 0)
+  Lq_teo <- mmc_Lq_rho(rho, c = nserv)
+  Lq_est <- sum(sim_queue$size_queue * sim_queue$gap) / sum(sim_queue$gap)
+  erro_Lq[i] <- Lq_est - Lq_teo
+
 }
-mean(erro)
+
+mean(erro_Lq)
+mean(erro_Ls)
 
 #rem_var()
