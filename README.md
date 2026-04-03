@@ -1,2 +1,2 @@
 # rGGc_queues
-Trabalhos relacionados a modelos de filas - Eriky e Rafael
+Trabalhos relacionados a modelos de filas - Eriky Gomes & Rafael Andrade & Frederico Cruz
