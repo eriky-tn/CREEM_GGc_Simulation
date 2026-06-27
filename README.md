@@ -38,7 +38,7 @@ source("experiments.ipynb")
 If you use this code in your research, please cite:
 
 
-R. M. Andrade; E. S. Gomes; F. R. B. Cruz (2026).
+Gomes, E.S., Cruz, F.R.B. & Andrade, R.M., 2026.
 Um simulador por eventos discretos para filas gerais com múltiplos servidores.
 XXXII Congresso Nacional de Estudantes de Engenharia Mecânica, 2024. _(Under Review)_.  
 
