@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the associated manuscript and this repository."
-title: "CREEM_GGc_Simulation: Source code for discrete-event simulator for general queues with multiple servers"
+title: "CREEM_GGc_Simulation: Source code for A Discrete-event Simulation for General Multi-server Queueing Systems"
 authors:
   - family-names: "Gomes"
     given-names: "Eriky S."
