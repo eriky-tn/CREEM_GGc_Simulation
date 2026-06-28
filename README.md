@@ -1,10 +1,10 @@
-# CREEM_GGc_Simulation: Source code for A Discrete-event Simulation for General Multi-server Queueing Systems
+# CREEM_GGc_Simulation: Source code for A Discrete-event Simulator for General Multi-server Queueing Systems
 
 This repository contains the implementation and computational experiments related to the article:
 
 **R. M. Andrade; E. S. Gomes; F. R. B. Cruz**  
 *Um simulador por eventos discretos para filas gerais com múltiplos servidores*  
-XXXII Congresso Nacional de Estudantes de Engenharia Mecânica, 2024. _(Under Review)_.  
+XXXII Congresso Nacional de Estudantes de Engenharia Mecânica - CREEM 2026 _(under review)_, 2026.
 
 ## Abstract
 Queueing theory studies service systems whose demand or service can only be specified in a probabilistic manner. These systems, known as queues, are modeled by probability distributions for the demand and service regimes, which are assumed to be independent, and may represent multiple servers, as well as batch arrivals or batch services. Obtaining performance metrics, such as the average queue length and the average waiting time, for probabilistically specified queueing models is of both theoretical and practical interest. However, no closed-form analytical expressions are known for general queueing systems with multiple servers, especially under batch arrivals and batch services. Such general systems are of significant practical relevance, particularly in the context of non-parametric modeling or in real-world systems where the assumptions of traditional models are not reasonable. In this regard, this work proposes a simulation algorithm for general queues with multiple servers through the discrete-event sampling technique and the object-oriented programming paradigm. The algorithm is evaluated in terms of efficiency and consistency with the theoretical metrics available for specific models, and simulations are carried out for new general models of interest that lack analytical expressions. Finally, it is concluded that the algorithm is efficient and consistent with the analytical expressions studied, and that, in scenarios without analytical expressions, the results obtained remain robust and exhibit coherence with analytical approximations and with the expected structural properties of the models, which supports the reliability of the produced estimates. Additionally, practical applications are briefly discussed.
@@ -46,10 +46,10 @@ BibTeX for the manuscript
 XXXII Congresso Nacional de Estudantes de Engenharia Mecânica, 2024. _(Under Review)_.  
 
 ```bibtex
-@article{SiCrQu2026,
-  author       = {R. M. Andrade; E. S. Gomes; F. R. B. Cruz},
+@article{AnGoCr26,
+  author       = {R. M. Andrade and E. S. Gomes and F. R. B. Cruz},
   title        = {Um simulador por eventos discretos para filas gerais com múltiplos servidores},
-  journal      = {XXXII Congresso Nacional de Estudantes de Engenharia Mecânica},
+  journal      = {XXXII Congresso Nacional de Estudantes de Engenharia Mecânica - CREEM 2026},
   year         = {2026},
   note         = {(under review)},
 }
@@ -57,9 +57,9 @@ XXXII Congresso Nacional de Estudantes de Engenharia Mecânica, 2024. _(Under Re
 
 BibTeX for the software repository
 ```bibtex
-@misc{Gomes2026,
+@misc{GoAnCr26,
   author       = {E. S. Gomes and R. M. Andrade and F. R. B. Cruz},
-  title        = {{CREEM\_GGc\_Simulation}: {Source} code for discrete-event simulator for general queues with multiple servers},
+  title        = {{CREEM\_GGc\_Simulation}: {Source} code for a discrete-event simulator for general multi-server queueing systems},
   year         = {2026},
   publisher    = {GitHub},
   howpublished = {\url{[https://github.com/eriky-tn/CREEM_GGc_Simulation](https://github.com/eriky-tn/CREEM_GGc_Simulation)}},
