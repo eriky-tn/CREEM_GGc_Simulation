@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript and this repository."
+title: "CREEM_GGc_Simulation: Source code for A Discrete-event Simulation for General Multi-server Queueing Systems"
+authors:
+  - family-names: "Gomes"
+    given-names: "Eriky S."
+  - family-names: "Andrade"
+    given-names: "R. M."
+  - family-names: "Cruz"
+    given-names: "F. R. B."
+version: 1.0.0
+date-released: 2026-06-27
+url: "https://github.com/eriky-tn/CREEM_GGc_Simulation"
+abstract: "Source code and discrete-event simulation results supporting the manuscript Um simulador por eventos discretos para filas gerais com múltiplos servidores."
+keywords:
+  - queueing theory
+  - general queues
+  - discrete events simulation
+license: MIT

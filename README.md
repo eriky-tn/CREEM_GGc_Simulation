@@ -32,17 +32,45 @@ To reproduce the results reported in the paper:
 ```r
 source("experiments.ipynb")
 ```
+2. Run:
+
+```r
+source("plots.ipynb")
+```
 
 ## Citation
+If you use this repository in academic work, please cite both the associated manuscript and the software repository.
 
-If you use this code in your research, please cite:
-
-
-R. M. Andrade; E. S. Gomes; F. R. B. Cruz (2026).
-Um simulador por eventos discretos para filas gerais com múltiplos servidores.
+BibTeX for the manuscript
+*Um simulador por eventos discretos para filas gerais com múltiplos servidores*  
 XXXII Congresso Nacional de Estudantes de Engenharia Mecânica, 2024. _(Under Review)_.  
 
+```bibtex
+@article{SiCrQu2026,
+  author       = {R. M. Andrade; E. S. Gomes; F. R. B. Cruz},
+  title        = {Um simulador por eventos discretos para filas gerais com múltiplos servidores},
+  journal      = {XXXII Congresso Nacional de Estudantes de Engenharia Mecânica},
+  year         = {2026},
+  note         = {(under review)},
+}
+```
+
+BibTeX for the software repository
+```bibtex
+@misc{Gomes2026,
+  author       = {E. S. Gomes and R. M. Andrade and F. R. B. Cruz},
+  title        = {{CREEM\_GGc\_Simulation}: {Source} code for discrete-event simulator for general queues with multiple servers},
+  year         = {2026},
+  publisher    = {GitHub},
+  howpublished = {\url{[https://github.com/eriky-tn/CREEM_GGc_Simulation](https://github.com/eriky-tn/CREEM_GGc_Simulation)}},
+  note         = {Accessed: 2026-06-27}
+}
+```
 
 ## License
-
-This repository is provided for academic and research purposes.
+ 
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+ 
+Copyright (c) 2026 E. S. Gomes and R. M. Andrade and F. R. B. Cruz.
+ 
+If you use this repository in academic work, please cite both the associated manuscript and the software repository.
