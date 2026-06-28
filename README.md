@@ -34,13 +34,11 @@ source("experiments.ipynb")
 ```
 
 ## Citation
-
-
-Citation
 If you use this repository in academic work, please cite both the associated manuscript and the software repository.
 
 BibTeX for the manuscript
 
+```bibtex
 @article{SiCrQu2026,
   author       = {Saroja Kumar Singh and Frederico R. B. Cruz and Roberto C. Quinino},
   title        = {Bayesian inference in {Erlang} single server queueing model based on queue length},
@@ -48,8 +46,10 @@ BibTeX for the manuscript
   year         = {2026},
   note         = {(under review)},
 }
+```
 
 BibTeX for the software repository
+```bibtex
 @misc{CrQuSi2026,
   author       = {Frederico R. B. Cruz and Roberto C. Quinino and Saroja Kumar Singh},
   title        = {{AJMMS\_Estimation\_MEr1}: {Source} code for {Bayesian} inference in {Erlang} single server queueing model based on queue length},
@@ -58,6 +58,7 @@ BibTeX for the software repository
   howpublished = {\url{https://github.com/fredericorbcruz/AJMMS\string_Estimation\string_MEr1}},
   note         = {Accessed: 2026-05-26}
 }
+```
 
 ## License
 
