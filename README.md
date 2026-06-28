@@ -66,6 +66,6 @@ BibTeX for the software repository
  
 This project is licensed under the MIT License. See the `LICENSE` file for details.
  
-Copyright (c) 2026 Frederico R. B. Cruz, Roberto C. Quinino, and Saroja Kumar Singh.
+Copyright (c) 2026 E. S. Gomes and R. M. Andrade and F. R. B. Cruz.
  
 If you use this repository in academic work, please cite both the associated manuscript and the software repository.
