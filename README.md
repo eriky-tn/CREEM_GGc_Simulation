@@ -32,6 +32,11 @@ To reproduce the results reported in the paper:
 ```r
 source("experiments.ipynb")
 ```
+2. Run:
+
+```r
+source("plots.ipynb")
+```
 
 ## Citation
 If you use this repository in academic work, please cite both the associated manuscript and the software repository.
