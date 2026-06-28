@@ -35,13 +35,29 @@ source("experiments.ipynb")
 
 ## Citation
 
-If you use this code in your research, please cite:
 
+Citation
+If you use this repository in academic work, please cite both the associated manuscript and the software repository.
 
-Gomes, E.S., Cruz, F.R.B. & Andrade, R.M., 2026.
-Um simulador por eventos discretos para filas gerais com múltiplos servidores.
-XXXII Congresso Nacional de Estudantes de Engenharia Mecânica, 2024. _(Under Review)_.  
+BibTeX for the manuscript
 
+@article{SiCrQu2026,
+  author       = {Saroja Kumar Singh and Frederico R. B. Cruz and Roberto C. Quinino},
+  title        = {Bayesian inference in {Erlang} single server queueing model based on queue length},
+  journal      = {American Journal of Mathematical and Management Sciences},
+  year         = {2026},
+  note         = {(under review)},
+}
+
+BibTeX for the software repository
+@misc{CrQuSi2026,
+  author       = {Frederico R. B. Cruz and Roberto C. Quinino and Saroja Kumar Singh},
+  title        = {{AJMMS\_Estimation\_MEr1}: {Source} code for {Bayesian} inference in {Erlang} single server queueing model based on queue length},
+  year         = {2026},
+  publisher    = {GitHub},
+  howpublished = {\url{https://github.com/fredericorbcruz/AJMMS\string_Estimation\string_MEr1}},
+  note         = {Accessed: 2026-05-26}
+}
 
 ## License
 
