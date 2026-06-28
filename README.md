@@ -37,12 +37,14 @@ source("experiments.ipynb")
 If you use this repository in academic work, please cite both the associated manuscript and the software repository.
 
 BibTeX for the manuscript
+*Um simulador por eventos discretos para filas gerais com múltiplos servidores*  
+XXXII Congresso Nacional de Estudantes de Engenharia Mecânica, 2024. _(Under Review)_.  
 
 ```bibtex
 @article{SiCrQu2026,
-  author       = {Saroja Kumar Singh and Frederico R. B. Cruz and Roberto C. Quinino},
-  title        = {Bayesian inference in {Erlang} single server queueing model based on queue length},
-  journal      = {American Journal of Mathematical and Management Sciences},
+  author       = {R. M. Andrade; E. S. Gomes; F. R. B. Cruz},
+  title        = {Um simulador por eventos discretos para filas gerais com múltiplos servidores},
+  journal      = {XXXII Congresso Nacional de Estudantes de Engenharia Mecânica},
   year         = {2026},
   note         = {(under review)},
 }
@@ -50,16 +52,20 @@ BibTeX for the manuscript
 
 BibTeX for the software repository
 ```bibtex
-@misc{CrQuSi2026,
-  author       = {Frederico R. B. Cruz and Roberto C. Quinino and Saroja Kumar Singh},
-  title        = {{AJMMS\_Estimation\_MEr1}: {Source} code for {Bayesian} inference in {Erlang} single server queueing model based on queue length},
+@misc{Gomes2026,
+  author       = {E. S. Gomes and R. M. Andrade and F. R. B. Cruz},
+  title        = {{CREEM\_GGc\_Simulation}: {Source} code for discrete-event simulator for general queues with multiple servers},
   year         = {2026},
   publisher    = {GitHub},
-  howpublished = {\url{https://github.com/fredericorbcruz/AJMMS\string_Estimation\string_MEr1}},
-  note         = {Accessed: 2026-05-26}
+  howpublished = {\url{[https://github.com/eriky-tn/CREEM_GGc_Simulation](https://github.com/eriky-tn/CREEM_GGc_Simulation)}},
+  note         = {Accessed: 2026-06-27}
 }
 ```
 
 ## License
-
-This repository is provided for academic and research purposes.
+ 
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+ 
+Copyright (c) 2026 Frederico R. B. Cruz, Roberto C. Quinino, and Saroja Kumar Singh.
+ 
+If you use this repository in academic work, please cite both the associated manuscript and the software repository.
